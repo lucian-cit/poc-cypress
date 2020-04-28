@@ -1,0 +1,22 @@
+{
+  "chromeWebSecurity": false,
+  "ignoreTestFiles": "*.js",
+  "trashAssetsBeforeRuns": false,
+  "video": true,
+  "waitForAnimations": true,
+  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/e2e-test-report.xml"
+  },
+  "videoCompression": 32,
+  "viewportWidth": 360,
+  "viewportHeight": 640,
+  "numTestsKeptInMemory": 50,
+  "requestTimeout": 8000,
+  "responseTimeout": 35000,
+  "pageLoadTimeout": 70000,
+  "failOnStatusCode": false,
+  "testFiles": "**/*.{feature,features}"
+}
